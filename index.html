@@ -115,7 +115,7 @@
                         <div>Using SPARQL query language</div>
 						<div>Available at <a href="https://query.linkedopendata.eu">https://query.linkedopendata.eu</a></div>
 					</section>
-					<section data-background-iframe="https://query.linkedopendata.eu/#%23defaultView%3AMap%20%0ASELECT%20DISTINCT%20%3Fs1%20%3Fcoordinates%20WHERE%20%7B%0A%09%20%3Fs1%20wdt%3AP35%20wd%3AQ8636%20.%0A%20%20%20%20%20%3Fs1%20%3Fp1%20wd%3AQ63%20.%0A%20%20%20%20%20%3Fs1%20wdt%3AP127%20%3Fcoordinates%20.%0A%7D" data-background-interactive>
+					<section data-background-iframe="https://query.linkedopendata.eu/index.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Fitem%20%7B%20wd%3AQ2993198%20%7D%20%3Fitem%20%3FpDirect%20%3FlinkTo%20.%0A%20%20%3Fitem%20rdfs%3Alabel%20%3FitemLabel%20.%0A%20%20FILTER%28lang%28%3FitemLabel%29%3D%22en%22%29%0A%7D" data-background-interactive>
 					</section>
 					<section>
 						<h3> 3. Question Answering</h3>
